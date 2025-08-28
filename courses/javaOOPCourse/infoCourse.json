@@ -1,0 +1,52 @@
+{
+    "uuid": "12345678-1234-1234-1234-123456789abc",
+    "name": "OOP-Java-2025",
+    "title": "Object-Oriented Programming with Java - Lab Sessions",
+    "assessmentSets": [
+        {
+            "abbreviation": "Lab",
+            "name": "Lab Sessions",
+            "heading": "Weekly Lab Assignments",
+            "color": "blue1"
+        }
+    ],
+    "topics": [
+        {
+            "name": "Classes and Objects",
+            "color": "blue3",
+            "description": "Basic class creation, constructors, methods"
+        },
+        {
+            "name": "Inheritance",
+            "color": "green3",
+            "description": "Inheritance, method overriding, super keyword"
+        },
+        {
+            "name": "Polymorphism",
+            "color": "yellow3",
+            "description": "Method overloading, polymorphism, abstract classes"
+        },
+        {
+            "name": "Encapsulation",
+            "color": "red3",
+            "description": "Access modifiers, getters/setters, data hiding"
+        }
+    ],
+    "tags": [
+        {
+            "name": "week1",
+            "color": "gray1",
+            "description": "Week 1 assignments"
+        },
+        {
+            "name": "week2",
+            "color": "gray2", 
+            "description": "Week 2 assignments"
+        },
+        {
+            "name": "coding",
+            "color": "brown1",
+            "description": "Programming assignment"
+        }
+    ]
+}

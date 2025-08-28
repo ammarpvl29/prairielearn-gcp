@@ -1,0 +1,32 @@
+<pl-question-panel>
+    <p><strong>Task:</strong> Create a Java class called <code>Book</code> with the following requirements:</p>
+    
+    <ol>
+        <li>Create a class named <code>Book</code></li>
+        <li>Add private instance variables:
+            <ul>
+                <li><code>String title</code></li>
+                <li><code>String author</code> (use value: <strong>"George Orwell"</strong>)</li>
+                <li><code>int pages</code> (use value: <strong>328</strong>)</li>
+            </ul>
+        </li>
+        <li>Create a constructor that takes <code>title</code> as parameter and sets the title field</li>
+        <li>Create getter methods: <code>getTitle()</code>, <code>getAuthor()</code>, <code>getPages()</code></li>
+        <li>Create a method <code>getDescription()</code> that returns a String in the format: "Book: [title] by [author], [pages] pages"</li>
+    </ol>
+    
+    <p><strong>Example output when calling getDescription():</strong><br>
+    <code>"Book: 1984 by George Orwell, 328 pages"</code></p>
+</pl-question-panel>
+
+<pl-file-editor file-name="Book.java" ace-mode="ace/mode/java" ace-theme="ace/theme/eclipse">
+public class Book {
+    // Add your code here
+    
+}
+</pl-file-editor>
+
+<pl-submission-panel>
+    <pl-external-grader-results></pl-external-grader-results>
+    <pl-file-preview></pl-file-preview>
+</pl-submission-panel>

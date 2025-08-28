@@ -1,0 +1,15 @@
+{
+    "uuid": "22222222-2222-3333-4444-555555555555",
+    "title": "Create a Basic Book Class - Version 2",
+    "topic": "Classes and Objects",
+    "tags": ["week1", "coding"],
+    "type": "v3",
+    "singleVariant": true,
+    "gradingMethod": "External",
+    "externalGradingOptions": {
+        "enabled": true,
+        "image": "prairielearn/grader-java",
+        "serverFilesCourse": ["java-autograder.py"],
+        "timeout": 60
+    }
+}

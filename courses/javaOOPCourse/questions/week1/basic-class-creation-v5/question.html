@@ -1,0 +1,32 @@
+<pl-question-panel>
+    <p><strong>Task:</strong> Create a Java class called <code>Product</code> with the following requirements:</p>
+    
+    <ol>
+        <li>Create a class named <code>Product</code></li>
+        <li>Add private instance variables:
+            <ul>
+                <li><code>String name</code></li>
+                <li><code>String category</code> (use value: <strong>"Electronics"</strong>)</li>
+                <li><code>double price</code> (use value: <strong>45.99</strong>)</li>
+            </ul>
+        </li>
+        <li>Create a constructor that takes <code>name</code> as parameter and sets the name field</li>
+        <li>Create getter methods: <code>getName()</code>, <code>getCategory()</code>, <code>getPrice()</code></li>
+        <li>Create a method <code>getSummary()</code> that returns a String in the format: "Product: [name] ([category]) - $[price]"</li>
+    </ol>
+    
+    <p><strong>Example output when calling getSummary():</strong><br>
+    <code>"Product: Wireless Mouse (Electronics) - $45.99"</code></p>
+</pl-question-panel>
+
+<pl-file-editor file-name="Product.java" ace-mode="ace/mode/java" ace-theme="ace/theme/eclipse">
+public class Product {
+    // Add your code here
+    
+}
+</pl-file-editor>
+
+<pl-submission-panel>
+    <pl-external-grader-results></pl-external-grader-results>
+    <pl-file-preview></pl-file-preview>
+</pl-submission-panel>

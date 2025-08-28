@@ -1,0 +1,32 @@
+<pl-question-panel>
+    <p><strong>Task:</strong> Create a Java class called <code>Car</code> with the following requirements:</p>
+    
+    <ol>
+        <li>Create a class named <code>Car</code></li>
+        <li>Add private instance variables:
+            <ul>
+                <li><code>String model</code></li>
+                <li><code>String brand</code> (use value: <strong>"Toyota"</strong>)</li>
+                <li><code>int year</code> (use value: <strong>2023</strong>)</li>
+            </ul>
+        </li>
+        <li>Create a constructor that takes <code>model</code> as parameter and sets the model field</li>
+        <li>Create getter methods: <code>getModel()</code>, <code>getBrand()</code>, <code>getYear()</code></li>
+        <li>Create a method <code>getDetails()</code> that returns a String in the format: "Car: [year] [brand] [model]"</li>
+    </ol>
+    
+    <p><strong>Example output when calling getDetails():</strong><br>
+    <code>"Car: 2023 Toyota Camry"</code></p>
+</pl-question-panel>
+
+<pl-file-editor file-name="Car.java" ace-mode="ace/mode/java" ace-theme="ace/theme/eclipse">
+public class Car {
+    // Add your code here
+    
+}
+</pl-file-editor>
+
+<pl-submission-panel>
+    <pl-external-grader-results></pl-external-grader-results>
+    <pl-file-preview></pl-file-preview>
+</pl-submission-panel>

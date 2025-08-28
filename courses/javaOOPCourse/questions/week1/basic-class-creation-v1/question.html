@@ -1,0 +1,32 @@
+<pl-question-panel>
+    <p><strong>Task:</strong> Create a Java class called <code>Student</code> with the following requirements:</p>
+    
+    <ol>
+        <li>Create a class named <code>Student</code></li>
+        <li>Add private instance variables:
+            <ul>
+                <li><code>String name</code></li>
+                <li><code>int studentId</code> (use value: <strong>12345</strong>)</li>
+                <li><code>double gpa</code> (use value: <strong>3.85</strong>)</li>
+            </ul>
+        </li>
+        <li>Create a constructor that takes <code>name</code> as parameter and sets the name field</li>
+        <li>Create getter methods: <code>getName()</code>, <code>getStudentId()</code>, <code>getGpa()</code></li>
+        <li>Create a method <code>getInfo()</code> that returns a String in the format: "Student: [name], ID: [studentId], GPA: [gpa]"</li>
+    </ol>
+    
+    <p><strong>Example:</strong> When calling <code>getInfo()</code> on a Student with name "John Smith", it should return:<br>
+    <code>"Student: John Smith, ID: 12345, GPA: 3.85"</code></p>
+</pl-question-panel>
+
+<pl-file-editor file-name="Student.java" ace-mode="ace/mode/java" ace-theme="ace/theme/monokai">
+public class Student {
+    // Add your code here
+    
+}
+</pl-file-editor>
+
+<pl-submission-panel>
+    <pl-external-grader-results></pl-external-grader-results>
+    <pl-file-preview></pl-file-preview>
+</pl-submission-panel>

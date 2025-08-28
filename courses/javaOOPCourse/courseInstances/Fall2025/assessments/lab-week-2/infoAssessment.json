@@ -1,0 +1,33 @@
+{
+    "uuid": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+    "type": "Homework", 
+    "title": "Lab Week 2: Inheritance",
+    "set": "Lab",
+    "number": "2",
+    "allowAccess": [
+        {
+            "mode": "Public",
+            "credit": 100,
+            "startDate": "2025-09-23T08:00:00",
+            "endDate": "2025-09-30T23:59:59"
+        }
+    ],
+    "zones": [
+        {
+            "title": "Inheritance Basics",
+            "questions": [
+                {
+                    "numberChoose": 1,
+                    "points": 100,
+                    "alternatives": [
+                        {"id": "week2/inheritance-basics-v1", "points": 100},
+                        {"id": "week2/inheritance-basics-v2", "points": 100},
+                        {"id": "week2/inheritance-basics-v3", "points": 100},
+                        {"id": "week2/inheritance-basics-v4", "points": 100},
+                        {"id": "week2/inheritance-basics-v5", "points": 100}
+                    ]
+                }
+            ]
+        }
+    ]
+}

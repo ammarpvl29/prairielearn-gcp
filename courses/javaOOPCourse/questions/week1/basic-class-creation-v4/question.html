@@ -1,0 +1,32 @@
+<pl-question-panel>
+    <p><strong>Task:</strong> Create a Java class called <code>Phone</code> with the following requirements:</p>
+    
+    <ol>
+        <li>Create a class named <code>Phone</code></li>
+        <li>Add private instance variables:
+            <ul>
+                <li><code>String model</code></li>
+                <li><code>String brand</code> (use value: <strong>"Apple"</strong>)</li>
+                <li><code>double price</code> (use value: <strong>999.99</strong>)</li>
+            </ul>
+        </li>
+        <li>Create a constructor that takes <code>model</code> as parameter and sets the model field</li>
+        <li>Create getter methods: <code>getModel()</code>, <code>getBrand()</code>, <code>getPrice()</code></li>
+        <li>Create a method <code>getInfo()</code> that returns a String in the format: "Phone: [brand] [model] - $[price]"</li>
+    </ol>
+    
+    <p><strong>Example output when calling getInfo():</strong><br>
+    <code>"Phone: Apple iPhone 15 - $999.99"</code></p>
+</pl-question-panel>
+
+<pl-file-editor file-name="Phone.java" ace-mode="ace/mode/java" ace-theme="ace/theme/eclipse">
+public class Phone {
+    // Add your code here
+    
+}
+</pl-file-editor>
+
+<pl-submission-panel>
+    <pl-external-grader-results></pl-external-grader-results>
+    <pl-file-preview></pl-file-preview>
+</pl-submission-panel>

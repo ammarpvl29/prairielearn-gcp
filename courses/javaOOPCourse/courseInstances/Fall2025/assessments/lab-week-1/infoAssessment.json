@@ -1,0 +1,33 @@
+{
+    "uuid": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee",
+    "type": "Homework", 
+    "title": "Lab Week 1: Basic Classes",
+    "set": "Lab",
+    "number": "1",
+    "allowAccess": [
+        {
+            "mode": "Public",
+            "credit": 100,
+            "startDate": "2025-09-16T08:00:00",
+            "endDate": "2025-09-23T23:59:59"
+        }
+    ],
+    "zones": [
+        {
+            "title": "Java Class Creation",
+            "questions": [
+                {
+                    "numberChoose": 1,
+                    "points": 100,
+                    "alternatives": [
+                        {"id": "week1/basic-class-creation-v1", "points": 100},
+                        {"id": "week1/basic-class-creation-v2", "points": 100},
+                        {"id": "week1/basic-class-creation-v3", "points": 100},
+                        {"id": "week1/basic-class-creation-v4", "points": 100},
+                        {"id": "week1/basic-class-creation-v5", "points": 100}
+                    ]
+                }
+            ]
+        }
+    ]
+}

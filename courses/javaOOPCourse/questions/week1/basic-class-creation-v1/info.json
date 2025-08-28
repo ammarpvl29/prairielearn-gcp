@@ -1,0 +1,14 @@
+{
+    "uuid": "11111111-2222-3333-4444-555555555555",
+    "title": "Create a Basic Student Class - Version 1",
+    "topic": "Classes and Objects",
+    "tags": ["week1", "coding"],
+    "type": "v3",
+    "singleVariant": true,
+    "gradingMethod": "External",
+    "externalGradingOptions": {
+        "enabled": true,
+        "image": "prairielearn/grader-java",
+        "timeout": 30
+    }
+}

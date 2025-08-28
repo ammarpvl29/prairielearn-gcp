@@ -1,0 +1,15 @@
+{
+    "uuid": "55555555-5555-5555-5555-555555555555",
+    "title": "Create a Basic Product Class - Version 5",
+    "topic": "Classes and Objects",
+    "tags": ["week1", "coding"],
+    "type": "v3",
+    "singleVariant": true,
+    "gradingMethod": "External",
+    "externalGradingOptions": {
+        "enabled": true,
+        "image": "prairielearn/grader-java",
+        "serverFilesCourse": ["java-autograder.py"],
+        "timeout": 60
+    }
+}
