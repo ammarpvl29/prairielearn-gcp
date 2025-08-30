@@ -1,9 +1,7 @@
 {
-    "googleClientId": "${GOOGLE_CLIENT_ID}",
-    "googleClientSecret": "${GOOGLE_CLIENT_SECRET}", 
-    "googleRedirectUrl": "${SERVER_HOST}/pl/oauth2callback",
+    "googleRedirectUrl": "http://34-170-177-27.nip.io:3000/pl/oauth2callback",
     "hasOauth": true,
-    "serverCanonicalHost": "${SERVER_HOST}",
+    "serverCanonicalHost": "http://34-170-177-27.nip.io:3000",
     "courseDirs": ["courses/javaOOPCourse"],
     "serverPort": 8080
 }

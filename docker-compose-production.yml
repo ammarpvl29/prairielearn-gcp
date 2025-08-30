@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  pl:
+    image: prairielearn/prairielearn:latest
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - GOOGLE_CLIENT_ID=${GOOGLE_CLIENT_ID}
+      - GOOGLE_CLIENT_SECRET=${GOOGLE_CLIENT_SECRET}
+    volumes:
+      # Config file volume mount - ADD THIS LINE
+      - ./config.json:/PrairieLearn/config.json
+      # Course directory mount - your existing course structure
+      - ./courses:/PrairieLearn/courses
+      # Optional: Mount for persistent data
+      - pl_data:/data
+    depends_on:
+      - postgres
+      - redis
+    restart: unless-stopped
+    
+  postgres:
+    image: postgres:13
+    environment:
+      POSTGRES_DB: prairielearn
+      POSTGRES_USER: prairielearn
+      POSTGRES_PASSWORD: your_secure_password_here
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+    
+  redis:
+    image: redis:6
+    restart: unless-stopped
+    volumes:
+      - redis_data:/data
+
+volumes:
+  pl_data:
+  postgres_data:
+  redis_data:
