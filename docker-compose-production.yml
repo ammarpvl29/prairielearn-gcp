@@ -26,7 +26,7 @@ services:
     environment:
       POSTGRES_DB: prairielearn
       POSTGRES_USER: prairielearn
-      POSTGRES_PASSWORD: your_secure_password_here
+      POSTGRES_PASSWORD: 223170prairielearn
     volumes:
       - postgres_data:/var/lib/postgresql/data
     restart: unless-stopped
