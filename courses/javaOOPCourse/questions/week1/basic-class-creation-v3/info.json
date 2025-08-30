@@ -9,7 +9,6 @@
     "externalGradingOptions": {
         "enabled": true,
         "image": "prairielearn/grader-java",
-        "serverFilesCourse": ["java-autograder.py"],
-        "timeout": 60
+        "timeout": 30
     }
 }
