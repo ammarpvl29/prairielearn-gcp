@@ -9,8 +9,6 @@
     "externalGradingOptions": {
         "enabled": true,
         "image": "prairielearn/grader-java",
-        "serverFilesCourse": ["java_autograder/"],
-        "entrypoint": "/grade/serverFilesCourse/java_autograder/run_simple.sh",
         "timeout": 60
     }
 }
