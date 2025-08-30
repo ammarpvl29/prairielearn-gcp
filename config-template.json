@@ -1,6 +1,6 @@
 {
   "serverPort": "3000",
-  "cookieDomain": ".34-170-177-27.nip.io",
+  "cookieDomain": "null",
   "googleClientId": "GOOGLE_CLIENT_ID_PLACEHOLDER",
   "googleClientSecret": "GOOGLE_CLIENT_SECRET_PLACEHOLDER",
   "googleRedirectUrl": "http://34-170-177-27.nip.io:3000/pl/oauth2callback",
