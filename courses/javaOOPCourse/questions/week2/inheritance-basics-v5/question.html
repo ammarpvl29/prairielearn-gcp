@@ -1,3 +1,33 @@
 <pl-question-panel>
-    <p>Inheritance question coming soon...</p>
+    <p><strong>Task:</strong> Write a Java program based on the requirements below:</p>
+    
+    <ol>
+        <li>Create a base class <code>Employee</code> with private fields <code>String name</code> and <code>double baseSalary</code>, and a constructor that accepts both parameters</li>
+        <li>Add a public method <code>getName()</code> that returns the name</li>
+        <li>Add a public method <code>calculatePay()</code> that returns the baseSalary</li>
+        <li>Create a derived class <code>Manager</code> that extends <code>Employee</code> with an additional private field <code>double bonus</code></li>
+        <li>The <code>Manager</code> constructor should accept name, baseSalary, and bonus, calling the parent constructor for name and baseSalary</li>
+        <li>Override the <code>calculatePay()</code> method in <code>Manager</code> to return baseSalary + bonus</li>
+        <li>In the <code>main</code> method, create a <code>Manager</code> object with name "John", baseSalary 50000.0, and bonus 10000.0, then print the name and total pay</li>
+    </ol>
+    
+    <p><strong>Example:</strong> When you run the program, it should output:</p>
+    <pre>Name: John
+Total Pay: 60000.0</pre>
 </pl-question-panel>
+
+<pl-file-editor 
+    file-name="Main.java" 
+    ace-mode="ace/mode/java" 
+    ace-theme="ace/theme/monokai">
+public class Main {
+    public static void main(String[] args) {
+        // Your code here
+    }
+}
+</pl-file-editor>
+
+<pl-submission-panel>
+    <pl-external-grader-results></pl-external-grader-results>
+    <pl-file-preview></pl-file-preview>
+</pl-submission-panel>

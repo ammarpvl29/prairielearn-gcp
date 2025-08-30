@@ -4,5 +4,11 @@
     "topic": "Inheritance",
     "tags": ["week2", "coding"],
     "type": "v3",
-    "singleVariant": true
+    "singleVariant": true,
+    "gradingMethod": "External",
+    "externalGradingOptions": {
+        "enabled": true,
+        "image": "prairielearn/grader-java",
+        "timeout": 30
+    }
 }

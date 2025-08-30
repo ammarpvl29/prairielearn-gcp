@@ -1,3 +1,33 @@
 <pl-question-panel>
-    <p>Inheritance question coming soon...</p>
+    <p><strong>Task:</strong> Write a Java program based on the requirements below:</p>
+    
+    <ol>
+        <li>Create a base class <code>Shape</code> with a private field <code>String color</code> and a constructor that accepts the color</li>
+        <li>Add a public method <code>getColor()</code> that returns the color</li>
+        <li>Add an abstract method <code>getArea()</code> that returns a double (make <code>Shape</code> abstract)</li>
+        <li>Create a derived class <code>Rectangle</code> that extends <code>Shape</code> with private fields <code>double width</code> and <code>double height</code></li>
+        <li>The <code>Rectangle</code> constructor should accept color, width, and height, calling the parent constructor for color</li>
+        <li>Implement the <code>getArea()</code> method to return width * height</li>
+        <li>In the <code>main</code> method, create a <code>Rectangle</code> object with color "red", width 5.0, height 3.0, then print the color and area</li>
+    </ol>
+    
+    <p><strong>Example:</strong> When you run the program, it should output:</p>
+    <pre>Color: red
+Area: 15.0</pre>
 </pl-question-panel>
+
+<pl-file-editor 
+    file-name="Main.java" 
+    ace-mode="ace/mode/java" 
+    ace-theme="ace/theme/monokai">
+public class Main {
+    public static void main(String[] args) {
+        // Your code here
+    }
+}
+</pl-file-editor>
+
+<pl-submission-panel>
+    <pl-external-grader-results></pl-external-grader-results>
+    <pl-file-preview></pl-file-preview>
+</pl-submission-panel>
