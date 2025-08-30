@@ -1,6 +1,6 @@
 {
   "serverPort": "3000",
-  "cookieDomain": "34-170-177-27.nip.io",
+  "cookieDomain": ".34-170-177-27.nip.io",
   "googleRedirectUrl": "http://34-170-177-27.nip.io:3000/pl/oauth2callback",
   "hasOauth": true,
   "serverCanonicalHost": "http://34-170-177-27.nip.io:3000",
