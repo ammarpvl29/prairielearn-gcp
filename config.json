@@ -1,4 +1,9 @@
 {
+    "googleClientId": "${GOOGLE_CLIENT_ID}",
+    "googleClientSecret": "${GOOGLE_CLIENT_SECRET}", 
+    "googleRedirectUrl": "${SERVER_HOST}/pl/oauth2callback",
+    "hasOauth": true,
+    "serverCanonicalHost": "${SERVER_HOST}",
     "courseDirs": ["courses/javaOOPCourse"],
     "serverPort": 8080
 }
