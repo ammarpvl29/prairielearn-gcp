@@ -1,0 +1,8 @@
+# Use the official PostgreSQL 15 image as the base
+FROM postgres:15
+
+# Install the pgvector extension for PostgreSQL 15
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+    postgresql-15-pgvector && \
+    rm -rf /var/lib/apt/lists/*

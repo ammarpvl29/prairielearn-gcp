@@ -20,7 +20,9 @@ services:
     restart: unless-stopped
     
   postgres:
-    image: postgres:15
+    build:
+      context: .
+      dockerfile: Dockerfile.postgres
     environment:
       POSTGRES_DB: prairielearn
       POSTGRES_USER: prairielearn
