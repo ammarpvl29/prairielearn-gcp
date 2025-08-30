@@ -1,11 +1,14 @@
 {
   "serverPort": "3000",
-  "cookieDomain": ".34-170-177-27.nip.io",
   "googleClientId": "GOOGLE_CLIENT_ID_PLACEHOLDER",
   "googleClientSecret": "GOOGLE_CLIENT_SECRET_PLACEHOLDER",
-  "googleRedirectUrl": "http://34-170-177-27.nip.io:3000/pl/oauth2callback",
+  "googleRedirectUrl": "http://34.170.177.27:3000/pl/oauth2callback",
   "hasOauth": true,
-  "serverCanonicalHost": "http://34-170-177-27.nip.io:3000",
+  "serverCanonicalHost": "http://34.170.177.27:3000",
+  "postgresqlHost": "postgres",
+  "postgresqlDatabase": "prairielearn",
+  "postgresqlUser": "prairielearn",
+  "postgresqlPassword": "223170prairielearn",
   "courseDirs": [
     "/PrairieLearn/courses/javaOOPCourse"
   ]
